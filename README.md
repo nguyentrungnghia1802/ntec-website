@@ -88,8 +88,8 @@ ntec-website/
 
 ```bash
 # Clone repository
-git clone https://github.com/nguyentrungnghia1802/NTEC.git
-cd NTEC
+git clone https://github.com/nguyentrungnghia1802/ntec-website.git
+cd ntec-website
 
 # Cài đặt dependencies
 npm install
@@ -114,7 +114,7 @@ npm run start
 
 Website được deploy tự động lên GitHub Pages khi push code lên branch `main`.
 
-**Live URL**: `https://nguyentrungnghia1802.github.io/NTEC/`
+**Live URL**: `https://nguyentrungnghia1802.github.io/ntec-website/`
 
 Xem hướng dẫn chi tiết trong file [DEPLOYMENT.md](./DEPLOYMENT.md)
 

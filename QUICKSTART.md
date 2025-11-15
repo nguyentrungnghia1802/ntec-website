@@ -14,8 +14,8 @@ git add .
 # Commit
 git commit -m "Initial commit: NTEC Chess Club website"
 
-# Add remote (thay YOUR_USERNAME nếu cần)
-git remote add origin https://github.com/nguyentrungnghia1802/NTEC.git
+# Add remote (đã có sẵn)
+git remote add origin https://github.com/nguyentrungnghia1802/ntec-website.git
 
 # Push
 git push -u origin main
@@ -23,7 +23,7 @@ git push -u origin main
 
 ### Bước 2: Enable GitHub Pages
 
-1. Vào https://github.com/nguyentrungnghia1802/NTEC
+1. Vào https://github.com/nguyentrungnghia1802/ntec-website
 2. Settings → Pages
 3. Source: chọn **"GitHub Actions"**
 
@@ -31,7 +31,7 @@ git push -u origin main
 
 - Vào tab **Actions** 
 - Đợi workflow chạy xong (2-3 phút)
-- Website sẽ có tại: **https://nguyentrungnghia1802.github.io/NTEC/**
+- Website sẽ có tại: **https://nguyentrungnghia1802.github.io/ntec-website/**
 
 ---
 

@@ -14,8 +14,8 @@ git add .
 # Commit
 git commit -m "Initial commit: NTEC Chess Club website"
 
-# Add remote repository (thay YOUR_USERNAME bằng username GitHub của bạn)
-git remote add origin https://github.com/YOUR_USERNAME/NTEC.git
+# Add remote repository (đã có sẵn remote)
+git remote add origin https://github.com/nguyentrungnghia1802/ntec-website.git
 
 # Push lên GitHub
 git push -u origin main
@@ -23,7 +23,7 @@ git push -u origin main
 
 ### Bước 2: Cấu hình GitHub Pages
 
-1. Truy cập repository trên GitHub: `https://github.com/YOUR_USERNAME/NTEC`
+1. Truy cập repository trên GitHub: `https://github.com/nguyentrungnghia1802/ntec-website`
 2. Click vào tab **Settings**
 3. Trong menu bên trái, click **Pages**
 4. Trong phần **Build and deployment**:
@@ -35,7 +35,7 @@ git push -u origin main
 - Vào tab **Actions** để xem quá trình deployment
 - Sau khi hoàn tất (có dấu ✅), website sẽ được deploy tại:
   ```
-  https://YOUR_USERNAME.github.io/NTEC/
+  https://nguyentrungnghia1802.github.io/ntec-website/
   ```
 
 ## 📝 Cập nhật website
@@ -61,8 +61,8 @@ GitHub Actions sẽ tự động build và deploy website mới!
 ```typescript
 output: 'export',              // Xuất static files
 images: { unoptimized: true }, // Không optimize images
-basePath: '/NTEC',             // Base path cho GitHub Pages
-assetPrefix: '/NTEC/',         // Asset prefix cho static files
+basePath: '/ntec-website',             // Base path cho GitHub Pages
+assetPrefix: '/ntec-website/',         // Asset prefix cho static files
 ```
 
 ### 2. `.github/workflows/nextjs.yml`
@@ -78,7 +78,7 @@ assetPrefix: '/NTEC/',         // Asset prefix cho static files
 3. Nếu gặp lỗi 404, kiểm tra:
    - Đã cấu hình GitHub Pages chưa (Settings > Pages)
    - Workflow đã chạy thành công chưa (Actions tab)
-   - URL có đúng format không: `https://USERNAME.github.io/NTEC/`
+   - URL có đúng format không: `https://nguyentrungnghia1802.github.io/ntec-website/`
 
 ## 🌐 Custom Domain (Optional)
 
