@@ -65,12 +65,13 @@ export default function HeroBanner() {
               alt={`NTEC Chess Club Banner ${index + 1}`}
               fill
               priority={index === 0}
-              className="object-cover"
+              className="object-cover object-center"
               sizes="100vw"
-              quality={100}
+              quality={95}
+              style={{ objectFit: 'cover' }}
             />
             {/* Dark overlay for better text readability */}
-            <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50" />
+            <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/60" />
           </div>
         ))}
       </div>
@@ -79,11 +80,11 @@ export default function HeroBanner() {
       <div className="relative z-10 h-full flex items-center justify-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="animate-fade-in">
-            <div className="text-7xl md:text-8xl mb-6 animate-bounce">♟️</div>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-white drop-shadow-2xl">
+            <div className="text-6xl md:text-7xl lg:text-8xl mb-6 animate-bounce drop-shadow-2xl">♟️</div>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 text-white drop-shadow-2xl">
               NTEC Chess Club
             </h1>
-            <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl mb-8 text-white drop-shadow-lg max-w-4xl mx-auto">
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl mb-8 text-white drop-shadow-lg max-w-4xl mx-auto leading-relaxed">
               Nơi nuôi dưỡng tư duy - Rèn luyện chiến lược - Kết nối đam mê
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
