@@ -8,15 +8,17 @@ export default function HeroBanner() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
 
+  const basePath = process.env.NODE_ENV === 'production' ? '/ntec-website' : '';
+  
   const banners = [
-    '/images/banner-1.jpg',
-    '/images/banner-2.jpg',
-    '/images/banner-3.jpg',
-    '/images/banner-5.jpg',
-    '/images/banner-6.jpg',
-    '/images/banner-8.jpg',
-    '/images/banner07.jpg',
-    '/images/club.jpg',
+    `${basePath}/images/banner-1.jpg`,
+    `${basePath}/images/banner-2.jpg`,
+    `${basePath}/images/banner-3.jpg`,
+    `${basePath}/images/banner-5.jpg`,
+    `${basePath}/images/banner-6.jpg`,
+    `${basePath}/images/banner-8.jpg`,
+    `${basePath}/images/banner07.jpg`,
+    `${basePath}/images/club.jpg`,
   ];
 
   // Auto-play carousel
