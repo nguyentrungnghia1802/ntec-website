@@ -34,7 +34,7 @@ export default function Join() {
   };
 
   return (
-    <div className="min-h-screen py-16">
+    <div className="min-h-screen pt-20">
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-slate-900 via-blue-900 to-cyan-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
