@@ -77,14 +77,14 @@ export default function HeroBanner() {
       </div>
 
       {/* Content Overlay */}
-      <div className="relative z-10 h-full flex items-center justify-center">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div className="relative z-10 h-full flex items-end pb-16 sm:pb-20 md:pb-24 lg:pb-32">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center w-full">
           <div className="animate-fade-in">
-            <div className="text-6xl md:text-7xl lg:text-8xl mb-6 animate-bounce drop-shadow-2xl">♟️</div>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 text-white drop-shadow-2xl">
+            <div className="text-6xl md:text-7xl lg:text-8xl mb-4 sm:mb-6 animate-bounce drop-shadow-2xl">♟️</div>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 text-white drop-shadow-2xl">
               NTEC Chess Club
             </h1>
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl mb-8 text-white drop-shadow-lg max-w-4xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl mb-6 sm:mb-8 text-white drop-shadow-lg max-w-4xl mx-auto leading-relaxed">
               Nơi nuôi dưỡng tư duy - Rèn luyện chiến lược - Kết nối đam mê
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
