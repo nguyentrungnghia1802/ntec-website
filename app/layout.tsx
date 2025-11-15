@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="vi">
       <body className={`${inter.className} antialiased bg-slate-50`}>
         <Navigation />
-        <main className="min-h-screen pt-16">
+        <main className="min-h-screen">
           {children}
         </main>
         <Footer />
