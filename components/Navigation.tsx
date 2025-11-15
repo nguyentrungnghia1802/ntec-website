@@ -18,7 +18,7 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="bg-slate-900/80 backdrop-blur-md fixed w-full z-50 shadow-lg transition-all duration-300">
+    <nav className="bg-slate-900/90 backdrop-blur-lg fixed w-full z-50 shadow-lg transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
